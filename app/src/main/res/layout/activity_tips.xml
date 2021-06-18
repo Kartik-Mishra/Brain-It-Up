@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/tips"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.itrio.iqtest.Tips">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips/Extras"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:text="This is quiz based of some tricky questions that might help you to increase your intelligence, problem-solving skills, reasoning and intelligence quotient (IQ). Remember? I asked you this.
+"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here are some few tips:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"
+            android:text="Don't see your remaining time again and again. Just focus on your question."/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"
+        android:text="Some questions are tricky. They do not seem what they actually are. So, don't answer blindly."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:text="After seeing the answer, try to find the reason by yourself rather than googling it."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:text="You may find some useless questions, but they are not."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="FAQs"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q. Am I really getting very less time?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No, you are getting just a little bit less than normal. This is just due to increasing difficulty to an above average level."
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q. Why ads?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are learning different aspects of developing and ads are a part of it. Moreover, it would help us pay the bills."
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q. Can I help?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes, you can help us in many ways. If you have new questions, suggestions or found a bug, you can directly write to us via mail (about us section) or write us a review."
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

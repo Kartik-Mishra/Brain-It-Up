@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Brain it up!</string>
+
+    <!-- Menu Items -->
+    <string name="main_menu_title">IQ Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_menu">About</string>
+
+
+    <!-- Main Menu buttons-->
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="highscore">Highscore</string>
+    <string name="tips">Tips</string>
+
+    <!-- Exit Quiz Alert Dialog -->
+    <string name="alert_exit">You are in between a quiz. Do you really want to quit to Main Menu?</string>
+
+    <!-- Difficuilty -->
+    <string name="difficuilty_title">Choose difficuilty</string>
+    <string name="easy_difficuilty">Easy</string>
+    <string name="normal_difficuilty">Normal</string>
+    <string name="hard_difficuilty">Hard</string>
+    <string name="genius_difficuilty">Genius!</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_result__q">Result_QA</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

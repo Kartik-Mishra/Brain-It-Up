@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/highscore_back"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score"
+        android:textSize="48sp"
+        android:paddingBottom="90dp"
+        android:textColor="@color/title_text"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/your_score"
+        />
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/your_score"
+        android:paddingTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:paddingRight="20dp"
+        android:textColor="@color/welcome_text"
+        android:textSize="90sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreText"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/light_button"
+        android:layout_alignTop="@+id/sar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/high_text"
+        android:paddingBottom="250dp"
+        android:paddingRight="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+ <!--   <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/fb_share"
+        android:paddingTop="10dp"
+        android:src="@drawable/fb_share"
+        android:paddingRight="5dp"/>
+
+   <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="180dp"
+        android:paddingTop="40dp"
+        android:src="@drawable/tweet"
+        android:id="@+id/tweet"
+        android:paddingRight="5dp"/> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="75dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        android:id="@+id/sar"
+        android:textStyle="bold"
+        android:textColor="@color/welcome_text"
+        android:fontFamily="casual"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Answers"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+         android:padding="5dp"
+        android:background="@color/answer"
+        android:id="@+id/show_answers" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="You need this button the most."
+        android:textSize="26sp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="casual"
+        android:textColor="@color/answer"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

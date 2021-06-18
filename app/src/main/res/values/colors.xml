@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00ddff</color>
+    <color name="button_color">#00fd8c21</color>
+    <color name="background">#b902d1</color>
+    <color name="main_menu_title">#ff0000</color>
+    <color name="background_splash">#ffffff</color>
+    <color name="welcome">#399eec</color>
+    <color name="welcome_text">#FFFFFF</color>
+    <color name="you_need_button_text_color">#FFBF1ECE</color>
+    <color name="light_thme">#faf2e0</color>
+    <color name="radio">#004cff</color>
+    <color name="light_button">#f49c2b</color>
+    <color name="correct_back">#5c1ff92e</color>
+    <color name="incorrect_back">#60f20d0d</color>
+    <color name="title_text">#ffffff</color>
+    <color name="text_color">#000000</color>
+    <color name="score"> #FF0000</color>
+    <color name="black">#cc000000</color>
+    <color name="HighScoreText">#fff567</color>
+    <color name="answer">#03051e</color>
+    <color name="timer">#FF0000</color>
+    <color name="initTimer">#004CFF</color>
+    <color name="contactDevelopers">#60e6fa</color>
+    <color name="tips">#98f2ff</color>
+
+
+
+</resources>

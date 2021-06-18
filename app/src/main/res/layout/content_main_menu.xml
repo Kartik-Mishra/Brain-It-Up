@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/main_back"
+    >
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativelayout2"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="-30dp"
+            >
+            <Button
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_button"
+                android:text="start"
+                android:textSize="22sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="190dp"
+                android:background="@color/button_color"
+                android:textColor="@color/title_text"
+
+                /></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/highscore_button"
+                android:text="highscore"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="false"
+                android:layout_marginBottom="140dp"
+                android:background="@color/button_color"
+                android:textColor="@color/title_text"
+
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            >
+            <Button
+                android:textSize="22sp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tips_button"
+                android:text="tips"
+                android:layout_gravity="left"
+                android:layout_marginBottom="90dp"
+                android:background="@color/button_color"
+                android:textColor="@color/title_text"
+                android:layout_marginLeft="-20dp"
+
+
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:src="@drawable/b1"
+                android:id="@+id/imageView"
+                android:layout_alignParentRight="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:textSize="22sp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit_button"
+                android:text="exit"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button_color"
+                android:textColor="@color/title_text"
+                android:layout_marginLeft="-20dp"
+
+
+
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

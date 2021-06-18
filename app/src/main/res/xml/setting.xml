@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+    <Preference
+        android:key="chinfo"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:id="@+id/chInfo"
+        android:summary="Edit you information"
+        android:title="Change info" />
+
+    <PreferenceCategory
+        android:title="DISPLAY"
+        android:key="title"
+        >
+
+        <SwitchPreference
+            android:title="Dark Theme"
+            android:id="@+id/theme"
+            android:checked="true"
+            android:defaultValue="false"
+            android:key="theme"
+            /></PreferenceCategory>
+    <PreferenceCategory
+        android:title="AUDIO">
+        <CheckBoxPreference
+            android:title="Music"
+            android:summary="Background Music"
+            android:defaultValue="true"
+            android:id="@+id/music"
+            android:key="music"
+            />
+
+            /></PreferenceCategory>
+    <CheckBoxPreference
+        android:title="Keep Screen Awake"
+        android:defaultValue="false"
+        android:key="awake"/>
+
+</PreferenceScreen>

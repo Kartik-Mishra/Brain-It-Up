@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nope! Wrong answer. It was one of the easiest question I kept in this app. The best is yet to come!  "
+        android:textSize="22sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I think, I need to improve myself"
+        android:id="@+id/thank"
+        android:textSize="16sp"/>
+
+</LinearLayout>

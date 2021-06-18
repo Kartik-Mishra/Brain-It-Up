@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iq__full_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.itrio.iqtest.IQ_FullForm"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What does IQ stands for ?"
+        android:textSize="30sp"
+        android:paddingBottom="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/iq_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intelligent Quotient"
+            android:textSize="18sp"
+            android:id="@+id/iq1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intelligence Quotient"
+            android:textSize="18sp"
+            android:id="@+id/iq2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intelligent Questions"
+            android:textSize="18sp"
+            android:id="@+id/iq3"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intelligence Questions"
+            android:textSize="18sp"
+            android:id="@+id/iq4"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/check"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is it right?"/>
+
+</LinearLayout>
